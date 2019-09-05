@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Font-Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    
+    <!-- layout container and grid -->
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div id="weather-box" class="col-8 border mt-5 px-3 pt-2 pb-3 shadow-sm rounded">
+          <!-- Tab Content -->
+          <div class="tab-content" id="myTabContent">
+            <!-- First tab -->
+            <div
+              class="tab-pane fade pl-3 pt-3 pb-3 show active"
+              id="one"
+              role="tabpanel"
+              aria-labelledby="one-tab"
+            >
+              <h4 class="tz text-warning"></h4>
+              <h5 class="dow-0 mb-1 pb-1 text-muted"></h5>
+              <h5 class="cond-0 pt-0 mt-0 text-muted"></h5>
+              <div class="row pt-3">
+                <div class="col-1">
+                    <canvas class="icon-0 display-inline" width="60" height="60"></canvas>
+                </div>
+                <div class="col-1 ml-2">
+                    <h1 class="hi-0 text-dark display-inline"></h1>
+                </div>
+                <div class="col-10 mr-auto">
+                  <button class="toggle btn-lg my-3 bg-dark text-success"><i class="fas fa-toggle-on pr-3"></i>Toggle Theme</button>
+                </div>
+                
+              </div>
+            </div>
+            <!-- Second tab content -->
+            <div
+              class="tab-pane fade pl-3 pt-3 pb-3"
+              id="two"
+              role="tabpanel"
+              aria-labelledby="two-tab"
+            >
+            <h4 class="tz text-warning"></h4>
+            <h5 class="dow-1 mb-1 pb-1 text-muted"></h5>
+            <h5 class="cond-1 pt-0 mt-0 text-muted"></h5>
+            <div class="row pt-3">
+              <div class="col-1">
+                  <canvas class="icon-1 display-inline" width="60" height="60"></canvas>
+              </div>
+              <div class="col-1 ml-2">
+                  <h1 class="hi-1 text-dark display-inline"></h1>
+              </div>
+              <div class="col"></div>
+              
+            </div>
+            </div>
+            <!-- Third tab content -->
+            <div
+              class="tab-pane fade pl-3 pt-3 pb-3"
+              id="three"
+              role="tabpanel"
+              aria-labelledby="three-tab"
+            >
+            <h4 class="tz text-warning"></h4>
+            <h5 class="dow-2 mb-1 pb-1 text-muted"></h5>
+            <h5 class="cond-2 pt-0 mt-0 text-muted"></h5>
+            <div class="row pt-3">
+              <div class="col-1">
+                  <canvas class="icon-2 display-inline" width="60" height="60"></canvas>
+              </div>
+              <div class="col-1 ml-2">
+                  <h1 class="hi-2 text-dark display-inline"></h1>
+              </div>
+              <div class="col"></div>
+              
+            </div>
+            </div>
+            <!-- 4th tab content -->
+            <div
+              class="tab-pane fade pl-3 pt-3 pb-3"
+              id="four"
+              role="tabpanel"
+              aria-labelledby="four-tab"
+            >
+            <h4 class="tz text-warning"></h4>
+            <h5 class="dow-3 mb-1 pb-1 text-muted"></h5>
+            <h5 class="cond-3 pt-0 mt-0 text-muted"></h5>
+            <div class="row pt-3">
+              <div class="col-1">
+                  <canvas class="icon-3 display-inline" width="60" height="60"></canvas>
+              </div>
+              <div class="col-1 ml-2">
+                  <h1 class="hi-3 text-dark display-inline"></h1>
+              </div>
+              <div class="col"></div>
+              
+            </div>
+            </div>
+            <!-- 5th tab content -->
+            <div
+              class="tab-pane fade pl-3 pt-3 pb-3"
+              id="five"
+              role="tabpanel"
+              aria-labelledby="five-tab"
+            >
+            <h4 class="tz text-warning"></h4>
+            <h5 class="dow-4 mb-1 pb-1 text-muted"></h5>
+            <h5 class="cond-4 pt-0 mt-0 text-muted"></h5>
+            <div class="row pt-3">
+              <div class="col-1">
+                  <canvas class="icon-4 display-inline" width="60" height="60"></canvas>
+              </div>
+              <div class="col-1 ml-2">
+                  <h1 class="hi-4 text-dark display-inline"></h1>
+              </div>
+              <div class="col"></div>
+              
+            </div>
+            </div>
+            <!-- 6th tab content -->
+            <div
+              class="tab-pane fade pl-3 pt-3 pb-3"
+              id="six"
+              role="tabpanel"
+              aria-labelledby="six-tab"
+            >
+            <h4 class="tz text-warning"></h4>
+            <h5 class="dow-7 mb-1 pb-1 text-muted"></h5>
+            <h5 class="cond-5 pt-0 mt-0 text-muted"></h5>
+            <div class="row pt-3">
+              <div class="col-1">
+                  <canvas class="icon-5 display-inline" width="60" height="60"></canvas>
+              </div>
+              <div class="col-1 ml-2">
+                  <h1 class="hi-5 text-dark display-inline"></h1>
+              </div>
+              <div class="col"></div>
+              
+            </div>
+            </div>
+            <!-- 7th tab content -->
+            <div
+              class="tab-pane fade pl-3 pt-3 pb-3"
+              id="seven"
+              role="tabpanel"
+              aria-labelledby="seven-tab"
+            >
+            <h4 class="tz text-warning"></h4>
+            <h5 class="dow-6 mb-1 pb-1 text-muted"></h5>
+            <h5 class="cond-6 pt-0 mt-0 text-muted"></h5>
+            <div class="row pt-3">
+              <div class="col-1">
+                  <canvas class="icon-6 display-inline" width="60" height="60"></canvas>
+              </div>
+              <div class="col-1 ml-2">
+                  <h1 class="hi-6 text-dark display-inline"></h1>
+              </div>
+              <div class="col"></div>
+              
+            </div>
+            </div>
+          </div>
+
+          <!-- Tabs Menu -->
+          <ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="one-tab"
+                data-toggle="tab"
+                href="#one"
+                role="tab"
+                aria-controls="one"
+                aria-selected="true"
+              >
+                <p class="dow-0 text-warning"></p>
+                <div class="display-block text-center pt-0 pb-2">
+                  <canvas class="icon-2-0" width="25" height="25"></canvas>
+                </div>
+                <div class="text-center">
+                  <p class="hi-0 text-dark d-inline pr-2"></p>
+                  <p class="lo-0 text-muted d-inline pl-2"></p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="two-tab"
+                data-toggle="tab"
+                href="#two"
+                role="tab"
+                aria-controls="two"
+                aria-selected="false"
+              >
+              <p class="dow-1 text-warning"></p>
+              <div class="display-block text-center pt-0 pb-2">
+                <canvas class="icon-2-1" width="25" height="25"></canvas>
+              </div>
+              <div class="text-center">
+                <p class="hi-1 text-dark d-inline pr-2"></p>
+                <p class="lo-1 text-muted d-inline pl-2"></p>
+              </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="three-tab"
+                data-toggle="tab"
+                href="#three"
+                role="tab"
+                aria-controls="three"
+                aria-selected="false"
+              >
+              <p class="dow-2 text-warning"></p>
+              <div class="display-block text-center pt-0 pb-2">
+                <canvas class="icon-2-2" width="25" height="25"></canvas>
+              </div>
+              <div class="text-center">
+                <p class="hi-2 text-dark d-inline pr-2"></p>
+                <p class="lo-2 text-muted d-inline pl-2"></p>
+              </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="four-tab"
+                data-toggle="tab"
+                href="#four"
+                role="tab"
+                aria-controls="four"
+                aria-selected="false"
+              >
+              <p class="dow-3 text-warning"></p>
+              <div class="display-block text-center pt-0 pb-2">
+                <canvas class="icon-2-3" width="25" height="25"></canvas>
+              </div>
+              <div class="text-center">
+                <p class="hi-3 text-dark d-inline pr-2"></p>
+                <p class="lo-3 text-muted d-inline pl-2"></p>
+              </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="five-tab"
+                data-toggle="tab"
+                href="#five"
+                role="tab"
+                aria-controls="five"
+                aria-selected="false"
+              >
+              <p class="dow-4 text-warning"></p>
+              <div class="display-block text-center pt-0 pb-2">
+                <canvas class="icon-2-4" width="25" height="25"></canvas>
+              </div>
+              <div class="text-center">
+                <p class="hi-4 text-dark d-inline pr-2"></p>
+                <p class="lo-4 text-muted d-inline pl-2"></p>
+              </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="six-tab"
+                data-toggle="tab"
+                href="#six"
+                role="tab"
+                aria-controls="six"
+                aria-selected="false"
+              >
+              <p class="dow-7 text-warning"></p>
+              <div class="display-block text-center pt-0 pb-2">
+                <canvas class="icon-2-5" width="25" height="25"></canvas>
+              </div>
+              <div class="text-center">
+                <p class="hi-5 text-dark d-inline pr-2"></p>
+                <p class="lo-5 text-muted d-inline pl-2"></p>
+              </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="seven-tab"
+                data-toggle="tab"
+                href="#seven"
+                role="tab"
+                aria-controls="seven"
+                aria-selected="false"
+              >
+              <p class="dow-6 text-warning"></p>
+              <div class="display-block text-center pt-0 pb-2">
+                <canvas class="icon-2-6" width="25" height="25"></canvas>
+              </div>
+              <div class="text-center">
+                <p class="hi-6 text-dark d-inline pr-2"></p>
+                <p class="lo-6 text-muted d-inline pl-2"></p>
+              </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="skycons.js"></script>
+  </body>
+</html>

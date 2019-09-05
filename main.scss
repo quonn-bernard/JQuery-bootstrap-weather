@@ -1,0 +1,36 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// $theme-colors: (
+//   "warning": #28a745,
+// );
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.tab-pane {
+    h1 {
+        font-size: 70px;
+        padding-top: 0;
+        margin-top: -15px;
+    }
+}
+nav{
+    display: none;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border: 1px 1px 1px solid rgba(247, 210, 6, 0.966);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link:active,
+.nav-tabs .nav-link:focus {
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
